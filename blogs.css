@@ -1,0 +1,90 @@
+.blog-banner-title{
+    text-align:center;
+    width: 60%;
+    margin:auto;
+}
+.blog-banner-title p{
+    margin-top:0;
+}
+.blog-banner-title h3{
+    font-size: 29px;
+}
+.blog-banner-title .fas{
+    color:#1F468A;
+    padding:0;
+}
+.blog-banner-date {
+    margin:auto;
+    width:90%;
+    text-align:left;
+    padding:10px 0 10px 150px;
+    border-top:2px solid #ebeaee;
+    border-bottom: 2px solid #ebeaee;
+}
+.blog-banner-date span{
+    display:inline-block;
+    padding:0 77px;
+    color:#666666;
+}
+.blog-banner-date span:nth-child(3){
+    padding-left:0;
+}
+.blog-banner-below{
+    margin:20px auto;
+    width:65%;
+}
+.blog-banner-below  .image-holder{
+    width:700px;
+    height:438px;
+    margin:auto;
+}
+.blog-banner-content p{
+    font-size:16px;
+}
+.middle-text{
+    padding:0 30px;
+    margin:45px 0;
+    border-left:3px solid #1F468A;
+}
+/* blog-banner section ends */
+
+.blog-second .fourth-card{
+    width:25%;
+}
+.blog-second .fourth-card p.vision-text{
+    color:#666666;
+}
+a.smallest-button{
+    padding: 5px 15px;
+    background-color: #1F468A;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 12px;
+    font-family: 'Manrope';
+    display:inline-block;
+}
+a.smallest-button img{
+    width:12px;
+}
+
+/* for slider */
+.blog-banner-content{
+    position:relative;
+}
+.blog-slider .slick-arrow{
+    position:absolute;
+    bottom: -36px;
+    color:#1F468A;
+    font-size:14px;
+}
+.blog-slider .slick-arrow .fas{
+    color:#1F468A;
+    font-size:14px;
+}
+.blog-slider .slick-arrow.slick-prev{
+    left:200px;
+}
+.blog-slider .slick-arrow.slick-next{
+    right:200px;
+}

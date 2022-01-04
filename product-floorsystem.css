@@ -1,0 +1,19 @@
+.product-floorsystem-first .smaller-text{
+    color:#666666;
+    margin-top:-16px;
+}
+.description-wrap{
+    margin:-20px;
+    overflow: hidden;
+    padding-bottom: 20px;
+}
+.description{
+    width:50%;
+    padding:20px;
+    float:left;
+    display:inline-block;
+}
+.description p img{
+    width:12px;
+    margin-right:5px;
+}

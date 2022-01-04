@@ -1,0 +1,13 @@
+.alternative-content{
+    width:50%;
+    text-align:center;
+    margin:auto;
+}
+.alternative-banner .image-holder{
+    width:450px;
+    height:200px;
+    margin:auto;
+}
+.alternative-banner .colored-text{
+    font-size:28px;
+}

@@ -1,0 +1,46 @@
+.service-card-wrapper{
+    margin:-20px;
+    overflow: hidden;
+}
+.service-card{
+    width:50%;
+    padding:20px;
+    float:left;
+}
+.service-card .item-wrap{
+    height: 280px;
+}
+.service-card .image-holder{
+    display:inline-block;
+    width:50%
+}
+.service-card .image-holder img{
+    height: 280px;
+}
+.service-content{
+    float:right;
+    width:50%;
+    padding: 10px 10px 10px 30px;
+    text-align: left;
+}
+.service-content .big-text::before{
+    content:" ";
+    position:absolute;
+    width: 51px;
+    height: 2px;
+    bottom: -6px;
+    background: #2D2D2D;
+    left: 0;
+}
+.service-content a{
+    margin-top:20px;
+    text-decoration:none;
+    display:inline-block;
+    font-size:14px;
+    color:#1F468A;
+}
+.service-content a .fas{
+    padding-left:5px;
+    color:#1F468A;
+}
+

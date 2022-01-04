@@ -1,0 +1,40 @@
+/*product-first section*/
+.product-first .image-holder img{
+    height:300px;
+}
+.product-first .about-first-left{
+    padding-right:0;
+}
+/*product-first section ends*/
+
+/*product-second section*/
+.product-second .item-wrap{
+    box-shadow: 7px 7px 5px #ecedf6;
+    height: 495px;
+}
+.product-second .content{
+    padding: 0 22px 20px;
+}
+.big-text{
+    font-size:22px;
+    position:relative;
+}
+.product-second .content .big-text::before{
+    content:" ";
+    position:absolute;
+    width: 39px;
+    height: 2px;
+    bottom: -6px;
+    background: #2D2D2D;
+    left: 129px;
+}
+.extrasmaller-text{
+    font-size:14px;
+    color:#666666;
+    line-height:22px;
+}
+.product-second a.primary-btn {
+    padding: 8px 25px;
+    font-size:14px;
+}
+/*product-second section*/
