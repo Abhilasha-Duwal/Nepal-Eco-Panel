@@ -652,7 +652,7 @@ img{
     float:none;
   }
   .card-wrap p::before {
-    left: 93px;
+    left: 124px;
   }
   .card-hover .main-title::before {
     left: 70px;
