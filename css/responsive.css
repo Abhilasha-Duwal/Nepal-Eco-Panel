@@ -563,6 +563,136 @@ img{
   }
 }
 
+@media screen and (max-width:412px){
+  p {
+    font-size: 16px;
+  }
+  h1 {
+    font-size: 33px;
+  }
+  /* header section */
+  .navbar-brand {
+    width: 45%;
+  }
+  .navbar {
+    width: 55%;
+  }
+  .navbar .icon {
+    margin-top: -18px;
+  }
+  .navbar.responsive .icon {
+    top: -38px;
+  }
+
+  /* banner section */
+  .banner-section-wrapper .banner-left {
+    width: 100%;
+    float:none;
+  }
+  a.primary-btn {
+    font-size: 16px;
+  }
+  a.primary-btn {
+    padding: 8px 33px;
+  }
+  .banner-section-wrapper .banner-right {
+    width: 100%;
+    margin-top:10px;
+  }
+  .banner-vision-block {
+    left: -46px;
+  }
+
+  /* first section */
+  h3 {
+    font-size: 16px;
+  }
+  .first .image-holder {
+    width: 260px;
+  }
+  .first .fas {
+    font-size: 37px;
+    top: 32%;
+    right: 44%;
+  }
+  .popup-video video {
+    left: 49.9%;
+  }
+  .popup-video video {
+    width: 260px;
+  }
+  .popup-video {
+    top: -79px;
+  }
+
+  /* second section */
+  .second-left{
+    padding-left:0;
+  }
+  .second .image-holder img {
+    width: 100%;
+  }
+  .pleft {
+    width: 100%;
+    display:block;
+  }
+  .small-text {
+    font-size: 16px;
+    padding-bottom:10px;
+  }
+  .pright {
+    width: 100%;
+    padding-left:0;
+    float:none;
+  }
+
+  /* third section */
+  .card {
+    width: 100%;
+    float:none;
+  }
+  .card-wrap p::before {
+    left: 93px;
+  }
+  .card-hover .main-title::before {
+    left: 70px;
+  }
+
+  /* fourth section */
+  .fourth-card {
+    width: 100%;
+    float:none;
+  }
+  .item-wrap {
+    height: 165px;
+  }
+  .image-holder {
+    height: 120px;
+  }
+  .fourth-card .image-holder img{
+    height:120px;
+  }
+
+  /* fifth section */
+  .profile-wrapper {
+    width: 100%;
+  }
+
+  /* seventh section */
+  .seventh-left {
+    width: 100%;
+  }
+  .seventh-right {
+    width: 100%;
+    float: none;
+  }
+
+  /* footer section */
+  .footer-bottom p {
+    font-size: 16px;
+  }
+}
+
 @media screen and (max-width:360px){
   p {
     font-size: 16px;
